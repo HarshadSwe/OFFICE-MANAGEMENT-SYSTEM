@@ -1,0 +1,54 @@
+table tr td {
+    vertical-align: middle;
+}
+
+td button {
+    margin: 5px;
+}
+
+td button i {
+    font-size: 20px;
+}
+
+.modal-body form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.modal-body form .inputField {
+    flex-basis: 68%;
+    padding-left: 100px;
+}
+
+form .inputField > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form .inputField > div label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .inputField > div input {
+    width: 75%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+
+.modal-footer .submit {
+    font-size: 18px;
+}
+
+#readData form .inputField > div input {
+    color: #000;
+    font-size: 18px;
+}
